@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery - Home</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<section>
+    <div class="container">
+        <nav>
+            <h1>Food Delivery</h1>
+            <ul>
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="">Prices</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="/signin">Login</a></li>
+                <li><a href="/signup">Signup</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="artical">
+        <h1>Best Food Delivery Website</h1>
+        <p>Welcome to our food delivery site, where culinary convenience meets an expansive array of delectable choices! Whether you're craving gourmet meals from local restaurants, comforting home-cooked favorites, or exotic dishes from around the world, we’ve got you covered. Enjoy real-time tracking of your delivery and exclusive deals that make dining in more enjoyable than ever!</p>
+    </div>
+</section>
+
+<section class="order-section">
+    <div class="container">
+        <div class="promo-banner">
+            <img src="promo-image.jpg" alt="Promo Banner" class="promo-image">
+            <div class="promo-content">
+                <h2>Order Now and Get 10% Off!</h2>
+                <p>Use code <strong>DELIVERY10</strong> on your first order.</p>
+                <button class="order-now-btn">Order Now</button>
+            </div>
+        </div>
+
+        <div class="order-options">
+            <h2>Explore Popular Categories</h2>
+            <div class="categories">
+                <div class="category">
+                    <img src="pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                </div>
+                <div class="category">
+                    <img src="burger.jpg" alt="Burger">
+                    <h3>Burgers</h3>
+                </div>
+                <div class="category">
+                    <img src="sushi.jpg" alt="Sushi">
+                    <h3>Sushi</h3>
+                </div>
+                <div class="category">
+                    <img src="dessert.jpg" alt="Dessert">
+                    <h3>Desserts</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="none_se">
+    <main>
+        <h1>Order Delivery Near You</h1>
+        <div class="search-container">
+            <input type="text" placeholder="Enter delivery address" class="search-input">
+            <button class="search-btn">Search</button>
+        </div>
+        <p class="sign-in"><a href="/signin">Login</a></p> or <p class="sign-in"><a href="/signup">Sign Up</a></p>
+    </main>
+</section>
+</body>
+</html>
